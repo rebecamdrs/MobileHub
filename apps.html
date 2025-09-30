@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Importação CSS-->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/apps.css">
+  <link rel="stylesheet" href="./css/colors.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+
+  <link rel="stylesheet" href="./css/modal.css">
+
+  <!-- icon -->
+  <link rel="icon"href="./img/circulo.png">
+
+  <!--Font Awesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <!--Importação JQUERY-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Importação JavaScript -->
+  <script src="javascript/inicio.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <title>Aplicativos</title>
+</head>
+
+<body>
+  <header>
+    <!-- NAVBAR DESKTOP -->
+    <nav id="navbar">
+      <img src="./img/mobile-hub-logo.png" alt="logo" onclick="window.location = 'index.html'">
+      <h1 id="titulo-turma"></h1>
+      <button class="button-default" onclick="window.location='index.html'">Voltar</button>
+
+      <button id="mobile-button">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- NAVBAR MOBILE -->
+    <div id="mobile-menu">
+      <button class="button-default" onclick="window.location = 'index.html'">Voltar</button>
+    </div>
+  </header>
+
+  <!-- Cards dos aplicativos -->
+  <div id="cards-apps">
+    <!-- Nesse bloco aparecerá os cards automaticamente dos apps -->
+      <!-- <div class="card-app">
+        <img id="app-img" src="" />
+        <div id="content">
+          <h2>Nome do Projeto</h2>
+          <p>Descrição</p>
+          <div id="students">
+            <div class="student">
+              <img class="img-student" src="" alt="">
+              <h3>Nome aluno 1</h3>
+            </div>
+            <div class="student">
+              <img class="img-student" src="" alt="">
+              <h3>Nome aluno 2</h3>
+            </div>
+            <div class="student">
+              <img class="img-student" src="" alt=""> 
+              <h3>Nome aluno 3</h3>
+            </div>
+          </div>
+          <div id="botoes">
+            <button class="button-default">Baixar aplicativo</button>
+            <button class="button-default info-button">Mais info</button>
+          </div>
+        </div>
+      </div> -->
+  </div>
+
+  <!-- Modal -->
+   <!-- Nesse bloco aparecerá os cards automaticamente os modais -->
+  <!-- <div class="modal-window" id="modal-window">
+    <div id="info-modal" class="modal">
+      <div class="modal-content">
+
+        <button id="fechar" class="close-btn">x</button>
+        <div class="modal-body">
+
+          <div class="modal-left"></div>
+
+          <div class="modal-right">
+            <h1>Quimipédia</h1>
+            <p>O Quimipédia tem como objetivo principal apresentar de forma clara e acessível as substâncias químicas
+              presentes em uma variedade de produtos do nosso cotidiano.</p>
+
+            <div class="students">
+              <div class="student">
+                <img src="/img/estudante-teste.png" alt="" class="student-img">
+                <span>Rebeca Medeiros</span>
+              </div>
+              <div class="student">
+                <img src="/img/estudante-teste.png" alt="" class="student-img">
+                <span>Rebeca Medeiros</span>
+              </div>
+              <div class="student">
+                <img src="/img/estudante-teste.png" alt="" class="student-img">
+                <span>Rebeca Medeiros</span>
+              </div>
+            </div>
+
+            <button class="button-default">Baixar Aplicativo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <script src="javascript/projetos.js" type="module"></script>
+  <script src="javascript/modal.js" type="module"></script>
+</body>
+</html>

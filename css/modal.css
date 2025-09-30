@@ -1,0 +1,166 @@
+/*.janela-modal {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: #00000048;
+}
+
+.modal {
+    width: 880px;
+    background-color: #ffffffde;
+    backdrop-filter: blur(10px);
+}*/
+
+/* Modal */
+.modal-window {
+    width: 100vw;
+    height: 100vh;
+    position: fixed; /* CORRIGIDO */
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Garante que o modal fique no topo */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+    backdrop-filter: blur(5px);
+    padding: 10px;
+}
+
+
+.modal-window.abrir {
+    display: flex;
+}
+
+#info-modal {
+    border: none;
+    width: 45%;
+    padding: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Botão de fechar */
+.close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Corpo do modal */
+.modal-body {
+    display: flex;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.modal-right {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.modal-right h1 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.modal-right p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Alunos */
+.students {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--light-gray);
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.student {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.student-img {
+    width: 50px;
+    height: 50px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+}
+
+.student span {
+    font-size: 1rem;
+    color: #333;
+}
+
+.close-btn {
+    font-weight: 800;
+}
+
+
+/*ANIMAÇÃO*/
+
+@keyframes abrirmodal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20px, -5px);
+    } 
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.abrir .modal {
+    animation: abrirmodal 0.2s;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    #info-modal {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .modal-right {
+        padding: 20px;
+    }
+
+    .close-btn {
+        top: 10px;
+        right: 10px;
+    }
+
+    .modal-right h1 {
+        font-size: 1.2rem;
+    }
+
+    .students {
+        flex-direction: column;
+    }
+}

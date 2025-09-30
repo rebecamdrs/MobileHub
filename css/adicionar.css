@@ -1,0 +1,14 @@
+body {
+    background-color: var(--blue);
+}
+
+header {
+    position: relative;
+    background-color: transparent;
+}
+
+#image-app {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
