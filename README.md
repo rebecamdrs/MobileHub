@@ -14,6 +14,8 @@ Mais do que um repositório, o site é um espaço que:
 
 O que começou em sala de aula agora é acessível para todos! 🌟
 
+#### 🔗 Link: https://topicos2024.netlify.app/
+
 ## ⚙️ Funcionalidades
 
 - Página inicial apresentando a disciplina, as turmas e as desenvolvedoras
@@ -25,7 +27,7 @@ O que começou em sala de aula agora é acessível para todos! 🌟
 - **HTML**: estrutura das páginas  
 - **CSS**: estilos visuais  
 - **JavaScript**: interatividade e manipulação de elementos
-- - **Figma**: criação da logo
+- **Figma**: criação da logo
 
 ## 📁 Estrutura do projeto
 
@@ -62,5 +64,6 @@ Este projeto foi idealizado e desenvolvido com dedicação por:
    - [Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do)
 - **Desenvolvedora:** Rebeca Medeiros
    - [LinkedIn](https://www.linkedin.com/in/rebecamedeirossilva/)
+- **Instituição:** [IFPB - campus Santa Luzia](https://www.ifpb.edu.br/santaluzia)
 
-E conta com a colaboração dos alunos das turmas de Tópicos Especiais do  [IFPB - campus Santa Luzia](https://www.ifpb.edu.br/santaluzia) 🎓
+**Mobile Hub** © 2024
