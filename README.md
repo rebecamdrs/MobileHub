@@ -54,7 +54,9 @@ MobileHub/
 
 Este projeto foi idealizado e desenvolvido com dedicação por:
 
-- **Professor responsável/Idealizador:** Alexandre
-- **Desenvolvedora do site:** Rebeca Medeiros (rebecamdrs)
+- **Professor responsável/Idealizador:** Antonio Alexandre Moura Costa
+   - [Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do)
+- **Desenvolvedora do site:** Rebeca Medeiros
+   - [LinkedIn](https://www.linkedin.com/in/rebecamedeirossilva/)
 
 E conta com a colaboração dos alunos das turmas de Tópicos Especiais do  [IFPB - campus Santa Luzia](https://www.ifpb.edu.br/santaluzia) 🎓
