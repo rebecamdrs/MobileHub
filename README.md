@@ -4,7 +4,7 @@
 
 # Mobile Hub
 
-A cada ano, os alunos da disciplina de **Tópicos Especiais (IFPB – campus Santa Luzia)** desenvolvem aplicativos mobile que refletem criatividade, aprendizado e resolução de problemas reais. Para reunir todos esses trabalhos em um só lugar, foi criado o **Mobile Hub**: uma vitrine educacional que organiza os aplicativos criados pelos discentes.
+A cada ano, os alunos da disciplina de **Tópicos Especiais (IFPB – campus Santa Luzia)** desenvolvem aplicativos **`Mobile Android`** que refletem criatividade, aprendizado e resolução de problemas reais. Para reunir todos esses trabalhos em um só lugar, foi criado o **Mobile Hub**: uma vitrine educacional que organiza os aplicativos criados pelos discentes.
 
 Mais do que um repositório, o site é um espaço que:
 
